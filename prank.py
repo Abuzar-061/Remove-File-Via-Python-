@@ -3,7 +3,7 @@ import random
 
 if random.randint(1, 6) == 6: # Choose Random Number which i give 1,6 if the algo choose number 6 it will delete this prank.py file  
     try:
-        os.remove(r"C:\PYTHON\Python-Project\prank.py")
+        os.remove(r"C:\PYTHON\Python-Project\prank.py") # give accorate path to delete the specific file that you want to delete 
         print("File removed successfully.")
     except FileNotFoundError:
         print(f"File not found: Error 404")
